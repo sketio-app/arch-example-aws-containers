@@ -1,0 +1,5 @@
+version: 1
+
+# Let Arch's AI read the files the static parsers cannot (the CDK source and the Terraform files).
+ai:
+  enabled: true

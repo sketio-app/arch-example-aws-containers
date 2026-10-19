@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2 # mode: diff reads the pull request's head commit
-      - uses: sketio-app/action@fe5cf00bb30c6f4ff97eb56fb83b4b307d1777ce # v1.8.0
+      - uses: sketio-app/action@0abcd451c3f8b6e70854da40827bca353e6525a3 # v1.9.0
         with:
           mode: ${{ github.event_name == 'pull_request' && 'diff' || 'sync' }}
           api-url: https://arch.sketio.app
